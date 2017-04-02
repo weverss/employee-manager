@@ -1,0 +1,23 @@
+[
+  {
+    "model": "employee_manager.department",
+    "pk": 1,
+    "fields": {
+      "name": "Architecture"
+    }
+  },
+  {
+    "model": "employee_manager.department",
+    "pk": 2,
+    "fields": {
+      "name": "E-commerce"
+    }
+  },
+  {
+    "model": "employee_manager.department",
+    "pk": 3,
+    "fields": {
+      "name": "Mobile"
+    }
+  }
+]

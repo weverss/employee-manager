@@ -1,0 +1,29 @@
+[
+  {
+    "model": "employee_manager.employee",
+    "pk": 1,
+    "fields": {
+      "name": "Arnaldo Pereira",
+      "email": "arnaldo@luizalabs.com",
+      "department": 1
+    }
+  },
+  {
+    "model": "employee_manager.employee",
+    "pk": 2,
+    "fields": {
+      "name": "Renato Pedigoni",
+      "email": "renato@luizalabs.com",
+      "department": 2
+    }
+  },
+  {
+    "model": "employee_manager.employee",
+    "pk": 3,
+    "fields": {
+      "name": "Thiago Catoto",
+      "email": "catoto@luizalabs.com",
+      "department": 3
+    }
+  }
+]
