@@ -6,6 +6,7 @@ from .models import Department, Employee
 class DepartmentAdmin(admin.ModelAdmin):
     search_fields = ['name']
 
+
 @admin.register(Employee)
 class EmployeeAdmin(admin.ModelAdmin):
     list_display = ['name', 'email', 'department']
