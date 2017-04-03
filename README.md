@@ -16,22 +16,30 @@ python manage.py migrate
 python manage.py loaddata departments
 python manage.py loaddata employees
 ```
+Crie um superusuário para acesso ao painel administrativo:
+
+```
+python manage.py createsuperuser
+```
 
 ## Inicialize o servidor built-in:
 ```
 python manage.py runserver
 ```
+Painel administrativo: http://localhost:8000/admin/
+API de funcionários: http://localhost:8000/employee/
+
 ## Exemplos de Requisições
 
 ### Lista funcionários
 
 ```
-GET /employee/
+GET http://localhost:8000/employee/
 ```
 ### Adiciona novo funcionário
 
 ```
-POST /employee/
+POST http://localhost:8000/employee/
 ```
 
 Body
@@ -47,13 +55,13 @@ Body
 ### Exibe detalhes de um funcionário
 
 ```
-GET /employee/:id
+GET http://localhost:8000/employee/:id
 ```
 
 ### Atualiza dados de funcionário
 
 ```
-PUT /employee/:id
+PUT http://localhost:8000/employee/:id
 ```
 
 Body
@@ -69,7 +77,7 @@ Body
 ### Remove um funcionário
 
 ```
-DELETE /employee/:id
+DELETE http://localhost:8000/employee/:id
 ```
 
 ## Testes
