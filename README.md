@@ -74,7 +74,7 @@ DELETE /employee/:id
 
 ## Testes
 
-Para execução dos testes de API, execute:
+Para execução dos testes de API, rode a linha de comando abaixo:
 
 
 ```
