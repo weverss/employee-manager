@@ -27,6 +27,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 Painel administrativo: http://localhost:8000/admin/
+
 API de funcionários: http://localhost:8000/employee/
 
 ## Exemplos de Requisições
