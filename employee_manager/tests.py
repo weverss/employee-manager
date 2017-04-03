@@ -3,7 +3,7 @@ from rest_framework import status
 import json
 
 
-class SimpleTest(TestCase):
+class ApiTest(TestCase):
     fixtures = ['departments.json', 'employees.json']
 
     employee = {
