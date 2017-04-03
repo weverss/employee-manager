@@ -1,9 +1,8 @@
 # Employee Manager
 
 ## Dependências
-Todos os commandos abaixo são executados utilizandos pacotes Python 3.5.
 
-Instale as dependências listadas no arquivo requirements.txt:
+Este projeto foi desenvolvido utilizando Python 3.5. Para instalar as dependências necessárias listadas no arquivo requirements.txt, execute o comando abaixo:
 
 ```
 pip install -r requirements.txt
